@@ -1,14 +1,34 @@
-index.html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Richi Zen</title>
+  <meta charset="UTF-8" />
+  <title>Richi Zen | Event Agency</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
-<body style="background:#0b0b12;color:white;font-family:Arial;text-align:center;padding:80px;">
+<body data-page="home">
+
+<header style="padding:30px;text-align:center;background:#07070b;color:#d4af37;">
   <h1>Richi Zen</h1>
-  <h2>Full Service Event Agency</h2>
-  <p>DJ • Audio • Lighting • Production • A to Z</p>
-  <p>Los Angeles, California</p>
+  <p>Full Service Event Agency · Los Angeles</p>
+  <nav>
+    <a href="services.html">Services</a> |
+    <a href="pricing.html">Pricing</a> |
+    <a href="gallery.html">Gallery</a> |
+    <a href="about.html">About</a>
+  </nav>
+</header>
+
+<main style="padding:80px;text-align:center;color:white;">
+  <h2>A–Z Event Production</h2>
+  <p>DJ · Audio · Lighting · Video · Staging · Rentals · Everything</p>
+  <p>825 S Hill St, Suite 1606 · Los Angeles, CA</p>
+  <a href="#contact" style="color:#d4af37;">Request a Quote</a>
+</main>
+
+<footer id="contact" style="padding:40px;text-align:center;background:#0e0e16;color:#aaa;">
+  <p>© Richi Zen · Los Angeles</p>
+</footer>
+
 </body>
 </html>
